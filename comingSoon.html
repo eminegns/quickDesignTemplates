@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body,html{
+            background: linear-gradient(90deg,#6C22A6, #96E9C6);
+            padding: 0px;
+            margin: 0px;
+            height: 100%;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+        }
+        .content{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 2rem;
+            border-radius: 15px;
+            max-width: 400px;
+        }
+        h1{
+            color: #4e4e4e;
+            margin-bottom: 20px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="email"]{
+            padding: 0.5rem;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 1rem;
+        }
+        button{
+            padding: 0.5rem;
+            background-color: #6C22A6;
+            color: #fff;
+            border:none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        button:hover{
+            background-color: #4f1979;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Coming Soon!</h1>
+            <p>
+                Harika bir şey getirmek için hızlı çalışıyoruz. Beklemede kalın!
+            </p>
+            <p>
+                We're working hard to bring something amazing. Stay tuned!
+            </p>
+            <form>
+                <input type="email" name="email" placeholder="Send Your E-mail!">
+                <button type="submit"> Notify Me</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
